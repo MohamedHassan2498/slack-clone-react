@@ -274,8 +274,20 @@ class Messages extends React.Component {
     ) : null;
 
   render() {
-    // prettier-ignore
-    const { messagesRef, messages, channel, user, numUniqueUsers, searchTerm, searchResults, searchLoading, privateChannel, isChannelStarred, typingUsers, messagesLoading } = this.state;
+    const {
+      messagesRef,
+      messages,
+      channel,
+      user,
+      numUniqueUsers,
+      searchTerm,
+      searchResults,
+      searchLoading,
+      privateChannel,
+      isChannelStarred,
+      typingUsers,
+      messagesLoading
+    } = this.state;
 
     return (
       <React.Fragment>
